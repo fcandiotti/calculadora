@@ -25,7 +25,7 @@ function Calculadora () {
   
   this.realizaConta = () => {
     try {
-      const conta = eval(this.display.value);
+      const conta = eval(this.display.value)
 
       if(!conta) {
         alert('Conta Invalida');
